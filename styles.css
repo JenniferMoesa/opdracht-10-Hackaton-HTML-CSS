@@ -1,6 +1,4 @@
 body {
-  /* background-color: black;
-  color: white; */
   font-family: cursive, fantasy;
 }
 
@@ -8,6 +6,7 @@ h1,h2,h3 {
   color: pink;
 }
 
+/* een roze border */
 .pink-border {
   border: 5px dotted purple;
   border-radius: 12px;
@@ -15,32 +14,32 @@ h1,h2,h3 {
   padding: 15px;
 }
 
-#ingredients {
-  color: pink;
-}
-
-/* Een element centreren */
+/* een element centreren */
 h1 {
   margin: o auto;
   color: pink;
 }
 
+/* kopstuk en voetstuk */
 .title, footer{
   margin: auto;
   text-align: center;
   padding: 10px;
 }
 
+/* ul navigatiebar */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+/* lists navigatiebar */
 .navigation-links {
   display: inline-flex;
 }
 
+/* anchor tag van links als inline block plaatsen */
 a {
   display: inline-block;
   padding: 8px;
@@ -67,7 +66,6 @@ minimale breedte : 768px */
   h1, h2, h3 {
     font-size: 12px;
   } 
-  
   body {                                                                             
       font-size: 12px; 
       background-color: black;   
@@ -81,7 +79,6 @@ minimale breedte : 1024px */
   h1, h2, h3 {
     font-size: 15px;
   } 
-  
   body {                                                                             
       font-size: 15px; 
       background-color: black;   
